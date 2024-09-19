@@ -10,8 +10,8 @@ const Navbar = () => {
           <img className="h-16 w-auto" src={logo} alt="Logo" />
         </div>
         <div className="icons flex gap-4">
-          <a href="https://www.facebook.com/onlysisir"><FaFacebook className="cursor-pointer hover:text-blue-600 transition-colors duration-300"/></a>
-          <a href="https://x.com/onlysisir"><FaTwitter className="cursor-pointer hover:text-blue-400 transition-colors duration-300"/></a>
+          <a href="https://www.facebook.com/onlysisir" target="blank"><FaFacebook className="cursor-pointer hover:text-blue-600 transition-colors duration-300"/></a>
+          <a href="https://x.com/onlysisir" target="blank"><FaTwitter className="cursor-pointer hover:text-blue-400 transition-colors duration-300"/></a>
           <a href="#"> <FaInstagram className="cursor-pointer hover:text-pink-500 transition-colors duration-300"/></a>
           <a href="https://www.linkedin.com/in/shishironly/" target="blank"><FaLinkedin className="cursor-pointer hover:text-blue-700 transition-colors duration-300"/></a>
         </div>
