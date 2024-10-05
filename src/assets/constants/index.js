@@ -71,7 +71,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Butwal, Rupandehi ",
-  phoneNo: "9805400958",
+  address: "Butwal,Nepal",
+  phoneNo: "+977 9805400958",
   email: "shishirbhattarai137@gmail.com",
 };
