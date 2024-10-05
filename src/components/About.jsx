@@ -1,4 +1,4 @@
-import about from '../assets/about.jpg'
+import about from '../assets/photo.png'
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
         >
-          <img src={about} className='rounded-md w-[50vh] h-[50vh]' alt="About Me" />
+          <img src={about} className='rounded-md w-[50vh] h-[50vh] bg-cover' alt="About Me" />
         </motion.div>
         <motion.div 
           className="text w-full lg:w-1/2 p-4 lg:p-0"

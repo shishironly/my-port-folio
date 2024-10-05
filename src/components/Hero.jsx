@@ -1,4 +1,4 @@
-import profile from "../assets/kevinRushProfile.png";
+import profile from "../assets/my-profile.jpg";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -34,8 +34,9 @@ const Hero = () => {
             problems and delivering high-quality software solutions.
         </motion.p>
       </div>
-      <div className="image w-full lg:w-1/2 p-4 lg:p-8">
-        <img src={profile} className="w-full h-auto" />
+
+      <div className="image w-full lg:w-1/2 p-4 lg:p-8 flex justify-center">
+        <img src={profile} className="w-[60vh] h-auto  rounded-full" />
       </div>
     </div>
   );
